@@ -4,7 +4,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-  { name: 'Home', href: '/' },
   { name: 'Features', href: '#features' },
   { name: 'Steps', href: '#steps' },
   { name: 'Join', href: '#join' },
@@ -48,6 +47,12 @@ export default function Navbar() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
+              <a 
+                  href="/"
+                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
+                >
+                  Home
+                </a>
               {navigation.map((item) => (
                 <a 
                   key={item.name} 
