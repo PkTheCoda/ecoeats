@@ -83,9 +83,9 @@ export default function StepComponent() {
               </p>
             </div>
             <p className="text-md text-gray-900 tracking-wide">
-              Finally, recipients are able to view the listings near them. Recipients will be notified through SMS when a 
-              listing opens up in their area. I didn't feel like writing the rest of this since im a web-developer not a WEB WRITER 
-              so ill just make someone like abhinav do it or something
+              Finally, recipients are able to view the listings near them. Recipients like food-banks, homeless shelters, and charities, 
+              will get notified by SMS when a new listing is available. From here, volunteer drivers on our app will be notified and will pick 
+              up the food to deliver to the recipient!
             </p>
           </div>
 

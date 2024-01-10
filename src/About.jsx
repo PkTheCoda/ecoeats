@@ -94,7 +94,7 @@ export default function About() {
                 <div className='flex flex-col w-full items-center justify-center'>
                     <div className="five-title font-manrope tracking-tight font-bold">Meet The Team</div>
                     <div className="mt-4 text-lg text-slate-700 font-outfit w-1/2 text-center">
-                        We're a group of five individuals from Richmond, Virginia. We created <span className="text-green-700">EcoEats</span>
+                        We're a group of five individuals from Richmond, Virginia. We created <span className="text-green-700">EcoEats </span>
                         because we wanted to help the evergrowing problem of food-waste globally. We hope that our innovation is able to
                         make an impact some way or another.
                     </div>
