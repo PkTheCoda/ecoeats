@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .transition300 {
+        @apply transition transform duration-300
+    }
+
+    .main-gradient {
+        @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-lime-500 via-emerald-500 to-teal-500 text-transparent inline bg-clip-text
+      }
+
+    .side-gradient {
+        @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-500 from-50% via-cyan-500 to-sky-500 text-transparent inline bg-clip-text
+    }
+
+    .three-title {
+        @apply md:text-3xl text-2xl
+    }
+
+
+    .four-title {
+        @apply lg:text-4xl md:text-3xl text-2xl
+    }
+
+    .five-title {
+        @apply xl:text-5xl lg:text-4xl md:text-3xl text-2xl
+    }
+
+    .six-title {
+        @apply xl:text-6xl lg:text-5xl md:text-4xl text-2xl
+    }
+
+    .responsive-half-full {
+        @apply w-full lg:w-1/2
+    }
+}
