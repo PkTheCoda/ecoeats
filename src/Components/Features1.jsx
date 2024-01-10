@@ -4,19 +4,18 @@ import greenellipse from '../Images/greenellipse.svg'
 
 const features = [
   {
-    name: 'Write something.',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    name: 'Intuitive Map',
+    description: 'EcoEats provides an intuitive mapping feature that allows recipients to see and get notified when a donor posts a listing in their respective area.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Write something.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'Easy Listings',
+    description: 'Recipients can easily view the listings on the app and are able to sort and filter by many different categories like Expiration Date, Food, etc.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Write something.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Volunteering Made Easy',
+    description: 'EcoEats allows users to volunteer effortlessly, whether that is posting listings or signing up to be a volunteer driver, there are many ways to help.',
     icon: ServerIcon,
   },
 ]
