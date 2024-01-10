@@ -3,24 +3,38 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import HeroMain from './Components/HeroMain'
 import Navbar from './Components/Navbar'
-import MainFeatures from './Components/MainFeatures'
-import Features1 from './Components/Features1'
-import StepComponent from './Components/StepsComponent'
-import FinalCTA from './Components/FinalCTA'
+import Homepage from './Homepage'
+import About from './About'
 import Footer from './Components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Navbar />
-      <HeroMain />
-      <MainFeatures />
-      <Features1 />
-      <StepComponent />
-      <FinalCTA />
+      <BrowserRouter>
+        <Routes>
+          <Route 
+            index 
+            element={<Homepage />}
+          />
+
+        <Route 
+            path="/about"
+            element={<About />}
+          />
+
+          
+        </Routes>
+
+        
+
+        
+      </BrowserRouter>
       <Footer />
+      
+
     </>
   )
 }

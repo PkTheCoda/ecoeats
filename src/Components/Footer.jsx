@@ -61,6 +61,7 @@ export default function Footer() {
                     </div>
                     <div>Team members include Rutam Tasgaonkar, Om Tasgaonkar, Rohit Sangishetty, Abhinav Arora</div>
                 </div>
+                
             </footer>
         </>
     )
