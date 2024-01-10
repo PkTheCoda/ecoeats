@@ -60,11 +60,11 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
-                href="/hire" 
+                href="/about" 
                 target='_blank'
                 className="text-md leading-6 text-black font-outfit"
               >
-                Contact Us <span aria-hidden="true">&rarr;</span>
+                About Us <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
@@ -105,10 +105,10 @@ export default function Navbar() {
                   </div>
                   <div className="py-6">
                     <a
-                      href="/hire"
+                      href="/about"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Contact Us 
+                      About Us 
                     </a>
                   </div>
                 </div>
