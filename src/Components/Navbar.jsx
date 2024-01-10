@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import ecoeats from '../assets/ecoeatsreal.png'
 
 const navigation = [
   { name: 'Features', href: '#features' },
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <span className="sr-only">Your Company</span>
                 <img
                     className="h-8 w-auto"
-                    src=""
+                    src={ecoeats}
                     alt=""
                   />
               </a>

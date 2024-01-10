@@ -13,7 +13,6 @@ export default function Homepage() {
             <Features1 />
             <StepComponent />
             <FinalCTA />
-            <Footer />
         </>
     )
 }
