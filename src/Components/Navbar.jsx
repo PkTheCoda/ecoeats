@@ -67,7 +67,6 @@ export default function Navbar() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
                 href="/about" 
-                target='_blank'
                 className="text-md leading-6 text-black font-outfit"
               >
                 About Us <span aria-hidden="true">&rarr;</span>
