@@ -104,6 +104,9 @@ export default function About() {
                     alt="A picture of the five of us (the team)" 
                     className='w-4/5 rounded-xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]'
                 />
+                <div className="mt-4 text-lg text-slate-700 font-outfit w-1/2 text-center">
+                    From left to right: Om Tasgaonkar, Pranav Konjeti, Rohit Sangishetty, Rutam Tasgaonkar, Abhinav Arora
+                </div>
             </div>
         </>
     )
