@@ -46,7 +46,7 @@ export default function HeroMain() {
 
             </div>
 
-            <div className='w-full flex justify-center'>
+            <div className='w-full flex justify-center px-3'>
                 <div className='w-full max-w-7xl p-2 rounded-lg bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-500 via-emerald-500 to-teal-500'>
                     <img src={heroimage} alt="hero image" className='rounded-md'/>
                 </div>

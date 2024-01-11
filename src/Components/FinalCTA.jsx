@@ -39,7 +39,7 @@ export default function FinalCTA() {
                 </a>
               </div>
             </div>
-            <div className="relative bg-red-100 flex justify-center mt-16 h-80 lg:mt-8">
+            <div className="relative flex justify-center mt-16 h-80 lg:mt-8">
               <img
                 className="absolute lg:-left-20 top-0 w-[57rem] max-w-none rounded-md "
                 src={featuresshot}
