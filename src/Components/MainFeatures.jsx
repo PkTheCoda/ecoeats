@@ -16,7 +16,7 @@ export default function MainFeatures() {
                         <div className="text-green-700 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde saepe architecto consectetur soluta perferendis iusto
                         </div>
-                        <a href="/about" className="text-black flex items-center font-manrope font-bold tracking-wider gap-2">
+                        <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold tracking-wider gap-2">
                             Learn more <ArrowRightCircleIcon className='w-6 h-6'/>
                         </a>
                     </div>
@@ -24,13 +24,17 @@ export default function MainFeatures() {
                         <div className="w-full lg:w-1/4 items-center lg:items-end gap-8 justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
                             <div className='flex flex-col gap-1 w-max'>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
-                                <div className="text-lg font-bold font-outfit tracking-wide ">Instant Delivery Time</div>
-                                <div className="text-md w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nisi. Culpa </div>
+                                <div className="text-lg font-bold font-outfit tracking-wide ">Available <span className="main-gradient font-bold">Everywhere</span></div>
+                                <div className="text-md w-80 font-outfit">
+                                    EcoEats is available on both IOS and Android, allowing anyone to download and contribute! 
+                                </div>
                             </div>
                             <div className='flex flex-col gap-1 h-max '>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
-                                <div className="text-lg font-bold font-outfit tracking-wide ">Instant Delivery Time</div>
-                                <div className="text-md w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nisi. Culpa </div>
+                                <div className="text-lg font-bold font-outfit tracking-wide ">Contribute <span className="main-gradient font-bold">Easier.</span></div>
+                                <div className="text-md w-80 font-outfit">
+                                    Whether you're a student or an adult, EcoEats allows anyone to contribute to their local community
+                                </div>
                             </div>
                         </div>
                         <div className="w-full lg:w-2/4 z-40">
@@ -39,13 +43,17 @@ export default function MainFeatures() {
                         <div className="w-full lg:w-1/4 items-center gap-8 lg:items-start justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
                             <div className='flex flex-col gap-1 w-max'>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
-                                <div className="text-lg font-bold font-outfit tracking-wide ">Instant Delivery Time</div>
-                                <div className="text-md w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nisi. Culpa </div>
+                                <div className="text-lg font-bold font-outfit tracking-wide ">Donate <span className="main-gradient font-bold">Easier</span></div>
+                                <div className="text-md w-80 font-outfit">
+                                    Easily sign-up up to be a donor on our platform and post listings allowing recipients to view and claim! 
+                                </div>
                             </div>
                             <div className='flex flex-col gap-1 w-max '>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
-                                <div className="text-lg font-bold font-outfit tracking-wide ">Instant Delivery Time</div>
-                                <div className="text-md w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nisi. Culpa </div>
+                                <div className="text-lg font-bold font-outfit tracking-wide ">Recieve <span className="main-gradient font-bold">Easier</span></div>
+                                <div className="text-md w-80 font-outfit">
+                                    Recipients can easily view and claim listings near them and have a volunteer pick them up
+                                </div>
                             </div>
                         </div>
                     </div>
