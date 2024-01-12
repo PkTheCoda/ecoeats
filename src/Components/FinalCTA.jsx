@@ -1,4 +1,4 @@
-import featuresshot from '../Images/featuresshot2.png'
+import featuresshot from '../Images/featuresshot.png'
 
 export default function FinalCTA() {
     return (
@@ -25,17 +25,17 @@ export default function FinalCTA() {
                 Start using our app today.
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Together, let's make every meal manifest meaning: not only reducing food waste, but impacting those in need.
+                EcoEats only works with your help. We depend on restauraunts, grocery stores, food banks, charities, volunteer drivers, and more to function!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
-                  href="/app"
+                  href="#"
                   className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
-                  View App
+                  Get started
                 </a>
-                <a href="/about" className="text-sm font-semibold leading-6 text-white">
-                  Our Mission <span aria-hidden="true">→</span>
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                  Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
