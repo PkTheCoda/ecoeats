@@ -52,7 +52,7 @@ export default function Testimonials() {
                     </figure>
                 </div>
 
-                <div className="bg-slate-100 w-full py-10">
+                <div className="bg-slate-100 w-full py-10 ">
                 <div className="mx-auto w-full px-6 lg:px-8">
                     <h2 className="text-center text-lg font-semibold leading-8 text-gray-700 font-outfit">
                         Trusted and Supported by:
