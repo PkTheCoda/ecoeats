@@ -7,7 +7,7 @@ export default function Testimonials() {
                 <div className="six-title font-bold font-manrope py-10">
                     <span className="main-gradient">Market Research</span> & Testimonials
                 </div>
-                <div className="flex w-full flex-col md:flex-row px-5 lg:w-2/3 gap-2 lg:gap-10">
+                <div className="flex w-full flex-col md:flex-row px-5 lg:w-10/12 gap-2 lg:gap-10">
                     <figure class="relative rounded-xl bg-white p-6 shadow-xl shadow-slate-900/10 w-full md:w-1/2">
                         <svg aria-hidden="true" width="105" height="78" class="absolute top-6 left-6 fill-slate-200/80">
                             <path
