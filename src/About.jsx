@@ -92,10 +92,10 @@ export default function About() {
             <div className="py-20 flex flex-col gap-8 items-center justify-center">
                 <div className='flex flex-col w-full items-center justify-center'>
                     <div className="five-title font-manrope tracking-tight font-bold">Meet The Team</div>
-                    <div className="mt-4 text-lg text-slate-700 font-outfit w-1/2 text-center">
-                        We're a group of five individuals from Richmond, Virginia. We created <span className="text-green-700">EcoEats </span>
-                        because we wanted to help the evergrowing problem of food-waste globally. We hope that our innovation is able to
-                        make an impact some way or another.
+                    <div className="mt-4 text-lg text-slate-700 font-outfit w-9/12 text-center">
+                        <span className="text-green-700">Each and every one of us</span> have had negative experiences with food waste, which makes our passion for EcoEats that much stronger. Rohit has worked at a local MOD pizza location, tasked with throwing away whole pizzas, drinks, and ingredients at the end of each day. 
+                        Additionally, at our school we notice many students throwing away their food during lunch, some students not even eating their meals and trashing them at the end of the period. These reasons, as well as many more instances, fuel our drive and motivation to make EcoEats a reality. <span className="text-green-700">Food waste is affecting our lives in more ways than one, and we wanted to do something about it.</span>
+
                     </div>
                 </div>
                 <img 

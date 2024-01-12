@@ -3,7 +3,7 @@ import logounited from '../assets/logo1.png'
 export default function Testimonials() {
     return (
         <>
-            <div className="w-full flex flex-col items-center justify-center bg-slate-100">
+            <div className="w-full flex flex-col items-center justify-center bg-slate-100 py-8">
                 <div className="six-title font-bold font-manrope py-10">
                     <span className="main-gradient">Market Research</span> & Testimonials
                 </div>

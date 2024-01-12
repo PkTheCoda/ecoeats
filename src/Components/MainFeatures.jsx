@@ -9,20 +9,20 @@ export default function MainFeatures() {
                 <div className="hidden lg:block absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[35%]">
                     <img src={phoneblob} alt="green ellipse for decor" className='w-[35rem] rotate-180 -z-10 opacity-50' />
                 </div>
-                    <div className='flex flex-col gap-y-4 text-center justify-center items-center mb-10'>
+                    <div className='flex flex-col gap-y-4 text-center justify-center items-center mb-20'>
                         <div className='six-title font-manrope font-bold tracking-tight'>
                             Abundant with Features.
                         </div>
-                        <div className="text-green-900 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
-                            EcoEats provides a slewth of features to allow 
+                        <div className="text-green-900 w-2/3 lg:w-1/2 font-outfit tracking-wide font-thin">
+                            EcoEats provides a slewth of features to allow a seamless and efficient food donation process ensuring a hassle-free experience for both donors and recipients.
                         </div>
                         <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold gap-2">
                             Learn more <ArrowRightCircleIcon className='w-6 h-6'/>
                         </a>
                     </div>
                     <div className='flex gap-x-2 lg:flex-row flex-col'>
-                        <div className="w-full lg:w-1/4 items-center lg:items-end gap-8 justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
-                            <div className='flex flex-col gap-1 w-9/12'>
+                        <div className="w-full lg:w-1/4 items-center px-10 lg:items-end gap-8 justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
+                            <div className='flex flex-col gap-1 w-9/12 '>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Available <span className="main-gradient font-bold">Everywhere</span></div>
                                 <div className="text-md font-outfit">
@@ -40,7 +40,7 @@ export default function MainFeatures() {
                         <div className="w-full lg:w-2/4 z-40">
                             <img src={featuresshot} alt="features shot app mockup" className='w-full' />
                         </div>
-                        <div className="w-full lg:w-1/4 items-center gap-8 lg:items-start justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
+                        <div className="w-full lg:w-1/4 items-center gap-8 px-10 lg:items-start justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
                             <div className='flex flex-col gap-1 w-9/12'>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Donate <span className="main-gradient font-bold">Easier</span></div>
