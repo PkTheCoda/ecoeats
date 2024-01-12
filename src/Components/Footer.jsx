@@ -20,7 +20,7 @@ export default function Footer() {
                         This website was made by <a href="https://pranavk.vercel.app" className="hover:underline text-blue-500">Pranav Konjeti </a>
                         for <a href="https://www.conradchallenge.org/" className="hover:underline text-blue-500">the Conrad Challenge</a>.
                     </div> */}
-                    <div>This website was made for the Conrad Challenge. Team members include Pranav Konjeti, Rutam Tasgaonkar, Om Tasgaonkar, Rohit Sangishetty, Abhinav Arora</div>
+                    <div>This website was made for the Conrad Challenge. Team members include <a href="https://pranavk.vercel.app" className='text-blue-700 hover:underline' target='_blank'>Pranav Konjeti</a>, Rutam Tasgaonkar, Om Tasgaonkar, Rohit Sangishetty, Abhinav Arora</div>
                 </div>
                 
             </footer>

@@ -88,7 +88,7 @@ export default function Testimonials() {
                     />
                     <img
                         className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src="https://caritasoutreachministries.org/wp-content/uploads/2022/05/LOGO-in-paint.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Caritas_Austria-logo.svg/1200px-Caritas_Austria-logo.svg.png"
                         alt="Statamic"
                         width={158}
                         height={48}
