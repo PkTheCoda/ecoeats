@@ -13,10 +13,10 @@ export default function MainFeatures() {
                         <div className='six-title font-manrope font-bold tracking-tight'>
                             Abundant with Features.
                         </div>
-                        <div className="text-green-700 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde saepe architecto consectetur soluta perferendis iusto
+                        <div className="text-green-900 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
+                            EcoEats provides a slewth of features to allow 
                         </div>
-                        <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold tracking-wider gap-2">
+                        <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold gap-2">
                             Learn more <ArrowRightCircleIcon className='w-6 h-6'/>
                         </a>
                     </div>
@@ -50,7 +50,7 @@ export default function MainFeatures() {
                             </div>
                             <div className='flex flex-col gap-1 w-9/12 '>
                                 <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
-                                <div className="text-lg font-bold font-outfit tracking-wide ">Recieve <span className="main-gradient font-bold">Easier</span></div>
+                                <div className="text-lg font-bold font-outfit tracking-wide ">Receive <span className="main-gradient font-bold">Easier</span></div>
                                 <div className="text-md font-outfit">
                                     Recipients can easily view and claim listings near them and have a volunteer pick them up
                                 </div>

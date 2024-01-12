@@ -90,14 +90,6 @@ export default function StepComponent() {
           </div>
 
         </div>
-        {/* <div className="text-center">
-          <a
-            href="/"
-            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-emerald-accent-400 hover:bg-deep-emerald-accent-700 focus:shadow-outline focus:outline-none"
-          >
-            Learn more
-          </a>
-        </div> */}
       </div>
     </>
 

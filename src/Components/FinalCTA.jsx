@@ -25,7 +25,7 @@ export default function FinalCTA() {
                 Start using our app today.
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+                Together, let's make every meal manifest meaning: not only reducing food waste, but impacting those in need.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a

@@ -3,7 +3,7 @@ import MainFeatures from './Components/MainFeatures'
 import Features1 from './Components/Features1'
 import StepComponent from './Components/StepsComponent'
 import FinalCTA from './Components/FinalCTA'
-import Footer from './Components/Footer'
+import Testimonials from './Components/Testimonials'
 
 export default function Homepage() {
     return (
@@ -12,6 +12,7 @@ export default function Homepage() {
             <MainFeatures />
             <Features1 />
             <StepComponent />
+            <Testimonials />
             <FinalCTA />
         </>
     )

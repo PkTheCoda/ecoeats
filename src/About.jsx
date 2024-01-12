@@ -73,7 +73,9 @@ export default function About() {
                                     </p>
                                     <div class="mt-6">
                                         <a class="inline-flex rounded-lg bg-green-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-green-600 hover:bg-green-700 hover:ring-green-700"
-                                            href="/login">
+                                            href="https://www.rts.com/wp-content/uploads/2021/04/RTS_Food_Waste_Guide_2021.pdf"
+                                            target='_blank'
+                                        >
                                             Learn More
                                         </a>
                                     </div>
