@@ -16,11 +16,11 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="text-center text-sm text-gray-500 lg:mt-0 flex flex-col">
-                    <div>
+                    {/* <div>
                         This website was made by <a href="https://pranavk.vercel.app" className="hover:underline text-blue-500">Pranav Konjeti </a>
                         for <a href="https://www.conradchallenge.org/" className="hover:underline text-blue-500">the Conrad Challenge</a>.
-                    </div>
-                    <div>Team members include Rutam Tasgaonkar, Om Tasgaonkar, Rohit Sangishetty, Abhinav Arora</div>
+                    </div> */}
+                    <div>This website was made for the Conrad Challenge. Team members include Pranav Konjeti, Rutam Tasgaonkar, Om Tasgaonkar, Rohit Sangishetty, Abhinav Arora</div>
                 </div>
                 
             </footer>
