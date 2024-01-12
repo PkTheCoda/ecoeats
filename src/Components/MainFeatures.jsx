@@ -1,5 +1,5 @@
 import featuresshot from '../Images/featuresshot.png'
-import { ArrowRightCircleIcon, ForwardIcon } from "@heroicons/react/24/outline";
+import { ArrowRightCircleIcon, DevicePhoneMobileIcon, HandThumbUpIcon, ChatBubbleLeftRightIcon, CheckBadgeIcon   } from "@heroicons/react/24/outline";
 import phoneblob from '../Images/phoneblob.svg'
 
 export default function MainFeatures() {
@@ -14,7 +14,7 @@ export default function MainFeatures() {
                             Abundant with Features.
                         </div>
                         <div className="text-green-700 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde saepe architecto consectetur soluta perferendis iusto
+                        EcoEats provides a slewth of features to allow a seamless and efficient food donation process ensuring a hassle-free experience for both donors and recipients.
                         </div>
                         <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold tracking-wider gap-2">
                             Learn more <ArrowRightCircleIcon className='w-6 h-6'/>
@@ -23,14 +23,14 @@ export default function MainFeatures() {
                     <div className='flex gap-x-2 lg:flex-row flex-col'>
                         <div className="w-full lg:w-1/4 items-center lg:items-end gap-8 justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
                             <div className='flex flex-col gap-1 w-9/12'>
-                                <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
+                                <DevicePhoneMobileIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Available <span className="main-gradient font-bold">Everywhere</span></div>
                                 <div className="text-md font-outfit">
                                     EcoEats is available on both IOS and Android, allowing anyone to download and contribute! 
                                 </div>
                             </div>
                             <div className='flex flex-col gap-1 w-9/12 h-max'>
-                                <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
+                                <HandThumbUpIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Contribute <span className="main-gradient font-bold">Easier.</span></div>
                                 <div className="text-md font-outfit">
                                     Whether you're a student or an adult, EcoEats allows anyone to contribute to their local community
@@ -42,14 +42,14 @@ export default function MainFeatures() {
                         </div>
                         <div className="w-full lg:w-1/4 items-center gap-8 lg:items-start justify-center lg:justify-around flex flex-col md:flex-row lg:flex-col">
                             <div className='flex flex-col gap-1 w-9/12'>
-                                <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
+                                <ChatBubbleLeftRightIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Donate <span className="main-gradient font-bold">Easier</span></div>
                                 <div className="text-md font-outfit">
                                     Easily sign-up up to be a donor on our platform and post listings allowing recipients to view and claim! 
                                 </div>
                             </div>
                             <div className='flex flex-col gap-1 w-9/12 '>
-                                <ForwardIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
+                                <CheckBadgeIcon className='h-10 w-10 p-2 bg-green-200 text-green-700 rounded-full'/>
                                 <div className="text-lg font-bold font-outfit tracking-wide ">Recieve <span className="main-gradient font-bold">Easier</span></div>
                                 <div className="text-md font-outfit">
                                     Recipients can easily view and claim listings near them and have a volunteer pick them up
