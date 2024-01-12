@@ -7,6 +7,7 @@ import Homepage from './Homepage'
 import About from './About'
 import Footer from './Components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Youtube from './Youtube'
 
 function App() {
 
@@ -23,6 +24,11 @@ function App() {
         <Route 
             path="/about"
             element={<About />}
+          />
+
+        <Route 
+            path="/app"
+            element={<Youtube />}
           />
 
           
