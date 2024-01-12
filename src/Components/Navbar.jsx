@@ -4,9 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ecoeats from '../assets/ecoeatsreal.png'
 
 const navigation = [
-  { name: 'Features', href: '#features' },
-  { name: 'Steps', href: '#steps' },
-  { name: 'Join', href: '#join' },
+
 ]
 
 export default function Navbar() {
@@ -53,6 +51,18 @@ export default function Navbar() {
                 >
                   Home
                 </a>
+                <a 
+                  href="/about"
+                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
+                >
+                  About Us
+                </a>
+                <a 
+                  href="/app"
+                  className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
+                >
+                  Showcase
+                </a>
               {navigation.map((item) => (
                 <a 
                   key={item.name} 
@@ -69,7 +79,7 @@ export default function Navbar() {
                 href="/about" 
                 className="text-md leading-6 text-black font-outfit"
               >
-                About Us <span aria-hidden="true">&rarr;</span>
+
               </a>
             </div>
           </nav>
