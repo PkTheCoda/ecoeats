@@ -14,7 +14,7 @@ export default function MainFeatures() {
                             Abundant with Features.
                         </div>
                         <div className="text-green-700 w-2/3 lg:w-1/3 font-outfit tracking-wide font-thin">
-                        EcoEats provides a slewth of features to allow a seamless and efficient food donation process ensuring a hassle-free experience for both donors and recipients.
+                        EcoEats provides a slew of features to allow a seamless and efficient food donation process ensuring a hassle-free experience for both donors and recipients.
                         </div>
                         <a href="/about" className="text-black flex transition transform duration-300 hover:scale-105 items-center font-manrope font-bold tracking-wider gap-2">
                             Learn more <ArrowRightCircleIcon className='w-6 h-6'/>
