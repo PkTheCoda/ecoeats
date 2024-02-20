@@ -4,8 +4,8 @@ export default function Testimonials() {
     return (
         <>
             <div className="w-full flex flex-col items-center justify-center bg-slate-100 py-8">
-                <div className="six-title font-bold font-manrope py-10">
-                    <span className="main-gradient">Market Research</span> & Testimonials
+                <div className="six-title font-semibold font-outfit py-10">
+                    Testimonials <span className="text-slate-600 underline">Don't Lie</span>
                 </div>
                 <div className="flex w-full flex-col md:flex-row px-5 lg:w-10/12 gap-2 lg:gap-10">
                     <figure class="relative rounded-xl bg-white p-6 shadow-xl shadow-slate-900/10 w-full md:w-1/2">
