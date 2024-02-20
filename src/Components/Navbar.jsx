@@ -77,10 +77,10 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
-                href="/about" 
+                href="/careers" 
                 className="text-md leading-6 text-black font-outfit"
               >
-
+                
               </a>
             </div>
           </nav>
@@ -115,7 +115,7 @@ export default function Navbar() {
                         className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                         onClick={(event) => handleNavigationClick(event, item.href)}
                       >
-                        {item.name}
+                        hi
                       </a>
                     ))}
                   </div>
