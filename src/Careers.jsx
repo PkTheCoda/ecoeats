@@ -50,7 +50,7 @@ const Careers = () => {
   return (
         <>
             <CareerModal open={open} setOpen={setOpen} activeJob={jobPostings[activeJob]}/>
-            <div className='py-20 flex flex-col items-center font-outfit'>
+            <div className='pt-20 flex flex-col items-center font-outfit'>
                 <div className="w-full pt-20 justify-center flex pb-20 bg-green-900">
                     <div className='w-5/6 flex'>
                         <div className="w-3/4 six-title font-semibold flex flex-col gap-y-4 text-white">
@@ -60,7 +60,7 @@ const Careers = () => {
                             </p>
                         </div>
                         <div className="w-1/4 flex justify-end">
-                            <button className='w-2/3 text-white border-2 py-2 text-center h-1/3 rounded-lg flex items-center justify-center'>
+                            <button className='w-max px-6 bg-green-600 text-white border-white py-2 text-center h-1/3 rounded-lg flex items-center justify-center'>
                                 💼 Full-Time Only
                             </button>
                         </div>
@@ -110,10 +110,10 @@ const Careers = () => {
                         {filteredJobs.map((job, index) => (
                             <>
             
-                                <div className='p-2 bg-slate-100 rounded-xl'>
+                                <div className='p-2 bg-slate-100 rounded-xl transition300 hover:scale-[1.01] cursor-pointer'>
                                     <div
                                         key={index}
-                                        className="flex flex-col gap-y-4 p-4 rounded-xl transition300 hover:scale-[1.01] cursor-pointer"
+                                        className="flex flex-col gap-y-4 p-4 rounded-xl"
                                         onClick={() => {
                                             setOpen(true);
                                             setActiveJob(job.num);
@@ -152,6 +152,17 @@ const Careers = () => {
                             </>
                         ))}
                         </div>
+                    </div>
+                </div>
+                <div 
+                    className="bg-red-100 hi py-20 w-full bg-cover bg-center flex justify-center"
+                    style={{
+                        backgroundImage: `url(https://static.vecteezy.com/system/resources/previews/030/668/415/non_2x/green-background-high-quality-free-photo.jpg)`,
+                    }}
+                >
+                    <div className="six-title flex flex-col justify-center items-center gap-y-5 text-white font-bold font-outfit">
+                        <h1 className='font-outfit'>Stay Connected</h1>
+                        <button className="w-max px-6 transition300 hover:scale-[1.04] py-2 bg-green-900 text-lg rounded-xl">SIGN UP FOR JOB ALERTS</button>
                     </div>
                 </div>
             </div>
