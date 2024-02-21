@@ -4,7 +4,7 @@ import { MdOutlineHealthAndSafety } from "react-icons/md";
 export default function Benefits() {
     return (
         <>
-            <div className='bg-green-900 py-10 my-16'>
+            <div className='bg-green-900 py-10 mt-16'>
                 <div className="container mx-auto font-outfit max-w-7xl py-10 flex flex-col gap-y-6">
                     <div className='flex flex-col gap-y-4 text-white items-center'>
                         <h1 className='text-center six-title'>
