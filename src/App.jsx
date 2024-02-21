@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Youtube from './Youtube'
 import Careers from './Careers';
+import RulesPage from './Components/Rules';
 
 function App() {
 
@@ -31,6 +32,11 @@ function App() {
           <Route 
             path="/careers"
             element={<Careers />}
+          />
+
+          <Route 
+            path="/rules"
+            element={<RulesPage />}
           />
 
           
