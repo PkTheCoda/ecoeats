@@ -77,7 +77,7 @@ const jobPostings = [
       {
         title: 'Graphic Designer/UX/UI Designer',
         tags: ['UI/UX', 'Development', 'Creative'],
-        location: '🌎 United States',
+        location: '🌎 United States',   
         description: 'Responsible for creating visual assets, user interfaces, and user experience designs for the EcoEats mobile application and website, ensuring a visually appealing and intuitive user experience.',
         type: 'Full-Time',
         salary: '64k - 92k',
