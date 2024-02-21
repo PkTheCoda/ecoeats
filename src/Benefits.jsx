@@ -28,7 +28,7 @@ export default function Benefits() {
                                 <div className="relative h-64 sm:h-80 lg:h-full">
                                 <img
                                     alt=""
-                                    src="https://media.istockphoto.com/id/1466388010/photo/health-insurance-concept-hand-people-holding-magnifier-focus-to-plus-symbol-and-healthcare.jpg?s=612x612&w=0&k=20&c=5MVsj9AuvJcBcp-jPZlW5PCl7s2lJQT2PFRpxP-aV_0="
+                                    src="https://t3.ftcdn.net/jpg/03/59/86/22/360_F_359862223_yB0ly6IL4n6Zm6SYhw00kNfbCRBnzOHn.jpg"
                                     className="absolute inset-0 h-full w-full object-cover rounded-xl"
                                 />
                                 </div>
@@ -96,7 +96,7 @@ export default function Benefits() {
                                     <div className="relative h-64 sm:h-80 lg:h-full">
                                     <img
                                         alt=""
-                                        src="https://media.istockphoto.com/id/1765917173/vector/paid-family-leave-benefits-pfl-benefits-include-sick-time-paid-time-off-vacation-benefits.jpg?s=612x612&w=0&k=20&c=NlwAGqjjnuYvg6Nkgz1YzAIazGmHVwhDH7GhOiPwAVI="
+                                        src="https://cdn.create.vista.com/api/media/small/69407035/stock-photo-young-woman-at-beach"
                                         className="absolute inset-0 h-full w-full object-cover rounded-xl"
                                     />
                                     </div>
@@ -117,7 +117,7 @@ export default function Benefits() {
                                 <div className="relative h-64 sm:h-80 lg:h-full">
                                 <img
                                     alt="insurance plan pic"
-                                    src="https://media.istockphoto.com/id/1055232764/vector/fast-service-brief-solution-or-business-project-management-vector-icon-of-checklist-survey.jpg?s=612x612&w=0&k=20&c=ylt5eH1WAk4ZIUAg8b_q9utfgwzM3VLzY5jkbSvz7WM="
+                                    src="https://cdn.aarp.net/content/dam/aarp/retirement/planning-for-retirement/2022/11/1140-retirement-super-savings.jpg "
                                     className="absolute inset-0 h-full w-full object-cover rounded-xl"
                                 />
                                 </div>
@@ -130,7 +130,7 @@ export default function Benefits() {
 
                                 <div className="p-8 sm:p-16 lg:p-24">
                                 <h2 className="font-bold five-title">
-                                    Accomodating <span className="main-gradient">Insurance Plans</span>
+                                    Accomodating <span className="main-gradient">Retirement Plans</span>
                                 </h2>
 
                                 <p className="mt-4 text-gray-600">
