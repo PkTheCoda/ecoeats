@@ -76,7 +76,7 @@ const jobPostings = [
       },
       {
         title: 'Graphic Designer/UX/UI Designer',
-        tags: ['Customer Support', 'People Skills'],
+        tags: ['UI/UX', 'Development', 'Creative'],
         location: '🌎 United States',
         description: 'Responsible for creating visual assets, user interfaces, and user experience designs for the EcoEats mobile application and website, ensuring a visually appealing and intuitive user experience.',
         type: 'Full-Time',
@@ -195,6 +195,7 @@ const Careers = () => {
                                             <p>{job.salary}</p>
                                             </div>
                                         </div>
+                                        <button className='px-4 py-2 rounded-lg bg-slate-700 text-sm text-white w-max'>Apply</button>
                                     </div>
                                 </div>
                             </>
