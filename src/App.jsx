@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Youtube from './Youtube'
 import Careers from './Careers';
 import RulesPage from './Components/Rules';
+import Benefits from './Benefits';
 
 function App() {
 
@@ -22,6 +23,11 @@ function App() {
         <Route 
             path="/about"
             element={<About />}
+          />
+
+          <Route 
+            path="/benefits"
+            element={<Benefits />}
           />
 
         <Route 
