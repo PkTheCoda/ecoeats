@@ -10,7 +10,7 @@ const jobPostings = [
       tags: ['Volunteer', 'People Skills'], 
       location: '🌎 United States',
       description:
-        'EcoEats wants your enthusiasm! As our Volunteer Coordinator, you\'ll lead volunteer initiatives, organize events, and foster a community dedicated to reducing food waste. Your role is to turn passion into action, connecting hearts for a shared mission. Join us in orchestrating impactful volunteer experiences and driving positive change!',
+        "EcoEats wants your enthusiasm! As our Volunteer Coordinator, you'll lead volunteer initiatives, organize events, and foster a community dedicated to reducing food waste. Your role is to turn passion into action, connecting hearts for a shared mission. Join us in orchestrating impactful volunteer experiences and driving positive change!",
       type: 'Full-Time',
       salary: '56k - 78k',
       num: 0,
@@ -20,7 +20,7 @@ const jobPostings = [
       tags: ['Coding', 'Development', 'UI/UX'],
       location: '🌎 United States',
       description:
-        'Calling coders with purpose! At EcoEats, you\'ll shape our tech-driven revolution. As a Programmer, your role is pivotal—craft the platform, ensure seamless experiences for food donors and recipients and revolutionize sustainable connections. Your code will redefine how communities come together!',
+        "Calling coders with purpose! At EcoEats, you'll shape our tech-driven revolution. As a Programmer, your role is pivotal—craft the platform, ensure seamless experiences for food donors and recipients and revolutionize sustainable connections. Your code will redefine how communities come together!",
       type: 'Full-Time',
       salary: '100k - 118k',
       num: 1,
@@ -65,6 +65,24 @@ const jobPostings = [
         salary: '75k - 95k',
         num: 5,
       },
+      {
+        title: 'Customer Support Representative',
+        tags: ['Customer Support', 'People Skills'],
+        location: '🌎 United States',
+        description: 'Responsible for providing assistance to users of the EcoEats platform, answering inquiries, troubleshooting technical issues, and ensuring a positive user experience.',
+        type: 'Full-Time',
+        salary: '78k - 96k',
+        num: 6,
+      },
+      {
+        title: 'Graphic Designer/UX/UI Designer',
+        tags: ['Customer Support', 'People Skills'],
+        location: '🌎 United States',
+        description: 'Responsible for creating visual assets, user interfaces, and user experience designs for the EcoEats mobile application and website, ensuring a visually appealing and intuitive user experience.',
+        type: 'Full-Time',
+        salary: '64k - 92k',
+        num: 6,
+      },
 ];
 
 const Careers = () => {
@@ -81,26 +99,26 @@ const Careers = () => {
         <>
             <CareerModal open={open} setOpen={setOpen} activeJob={jobPostings[activeJob]}/>
             <div className='pt-20 flex flex-col items-center font-outfit'>
-                <div className="w-full pt-20 justify-center flex pb-20 bg-green-900">
-                    <div className='w-5/6 flex'>
-                        <div className="w-3/4 six-title font-semibold flex flex-col gap-y-4 text-white">
+                <div className="w-full pt-20 justify-center flex gap-y-10 pb-20 bg-green-900">
+                    <div className='w-full lg:w-5/6 flex lg:flex-row flex-col gap-y-10'>
+                        <div className="w-full lg:w-3/4 six-title font-semibold lg:items-start items-center flex flex-col gap-y-4 text-white">
                             <h1>Start doing work that <span className="underline">Matters</span>.</h1>
-                            <p className='font-light w-full text-xl'>
+                            <p className='font-light w-full text-xl lg:text-start text-center lg:px-0 px-4'>
                                 Join <span className="main-gradient font-semibold">EcoEats</span> for impactful work. Reduce food waste, fight food insecurity, and thrive in a flexible, diverse environment. Contribute to positive change and a sustainable future. Your purpose-driven career begins here.
                             </p>
                         </div>
-                        <div className="w-1/4 flex justify-end">
-                            <button className='w-max px-6 bg-green-600 text-white border-white py-2 text-center h-1/3 rounded-lg flex items-center justify-center'>
+                        <div className="w-full lg:w-1/4 flex justify-center lg:justify-end">
+                            <button className='w-max px-6 bg-green-600 text-white border-white py-6 text-center h-1/3 rounded-lg flex items-center justify-center'>
                                 💼 Full-Time Only
                             </button>
                         </div>
                     </div>
                 </div>
                 <div className="w-5/6 font-outfit">
-                    <div className='py-10 flex xl:flex-row flex-col gap-y-10 mt-10 border-t-2 border-b-2 border-slate-100'>
+                    <div className='py-10 flex xl:flex-row flex-col gap-y-10 relative mt-10 border-t-2 border-b-2 border-slate-100'>
 
-                        <div className="w-full xl:w-1/3 flex flex-col  gap-y-3">
-                            <h3 className='three-title'>Openings</h3>
+                        <div className="w-full xl:w-1/3 flex flex-col gap-y-3">
+                            <h3 className='text-3xl'>Openings</h3>
                             <p className='text-lg text-slate-800'>View all of our current Job Openings here:</p>
                             <div className="relative xl:w-3/4">
                                 <input
