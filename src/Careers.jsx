@@ -10,7 +10,7 @@ const jobPostings = [
       tags: ['Volunteer', 'People Skills'], 
       location: '🌎 United States',
       description:
-        'EcoEats wants your enthusiasm! As our Volunteer Coordinator, you\'ll lead volunteer initiatives, organize events, and foster a community dedicated to reducing food waste Your role is to turn passion into action, connecting hearts for a shared mission. Join us in orchestrating impactful volunteer experiences and driving positive change!',
+        'EcoEats wants your enthusiasm! As our Volunteer Coordinator, you\'ll lead volunteer initiatives, organize events, and foster a community dedicated to reducing food waste. Your role is to turn passion into action, connecting hearts for a shared mission. Join us in orchestrating impactful volunteer experiences and driving positive change!',
       type: 'Full-Time',
       salary: '56k - 78k',
       num: 0,
@@ -35,6 +35,36 @@ const jobPostings = [
       salary: '80k - 101k',
       num: 2,
     },
+    {
+        title: 'Sustainability Analyst',
+        tags: ['Sustainability', 'Data Analysis', 'Environmental Science'],
+        location: '🌎 United States',
+        description:
+          'Join EcoEats as a Sustainability Analyst! Dive into data analysis, assess environmental impact, and contribute to our sustainability goals. Your insights will guide our initiatives towards a greener future. If you have a passion for numbers and the planet, this role is for you!',
+        type: 'Full-Time',
+        salary: '70k - 90k',
+        num: 3,
+      },
+      {
+        title: 'Community Engagement Specialist',
+        tags: ['Community Outreach', 'Public Relations', 'Event Planning'],
+        location: '🌎 United States',
+        description:
+          'EcoEats is seeking a Community Engagement Specialist! Connect with diverse communities, plan events, and promote our mission to reduce food waste. Your interpersonal skills will drive positive change. Join us in building strong relationships and fostering a sustainable community!',
+        type: 'Full-Time',
+        salary: '65k - 85k',
+        num: 4,
+      },
+      {
+        title: 'Supply Chain Coordinator',
+        tags: ['Supply Chain', 'Logistics', 'Operations'],
+        location: '🌎 United States',
+        description:
+          'Become a key player in our sustainable supply chain! As a Supply Chain Coordinator, you’ll ensure efficient operations from sourcing to distribution. Join EcoEats to redefine how food reaches those in need, minimizing waste and maximizing impact.',
+        type: 'Full-Time',
+        salary: '75k - 95k',
+        num: 5,
+      },
 ];
 
 const Careers = () => {
